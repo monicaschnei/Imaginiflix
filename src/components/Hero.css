@@ -1,0 +1,44 @@
+.visivel{
+    bottom: 0;
+    margin-bottom: 16rem;
+    padding-left: 2rem; 
+    padding-right: 2rem;
+}
+
+.visivel__p1{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+
+.visivel__h2{
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.visivel__p2{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.visivel__p2 span{
+    border-radius: 9999px;
+
+}
+.btn{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    opacity: 0.5;
+    margin-right: 0.5rem;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    opacity:0.75;
+}
+
+.icon{
+    margin-right: 0.5rem;
+}
