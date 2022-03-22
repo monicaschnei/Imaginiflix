@@ -18,19 +18,19 @@ const Hero = ({title='Avangers Endgame', score=10}) => {
 
     };
 return (
-    <header className='relative min-h-screen -mb-32'>
+    <header className='box-border relative min-h-screen -mb-32'>
         <img 
             className='object-cover object-center w-full' 
             src={placeholder} 
             alt='filme em destaque'
         />
-        <div className='absolute inset-0 w-full h-full left-0 bottom-0 bg-gradient-to-b from-transparent to-black'>
+        <div className='absolute w-full h-full left-0 bottom-0 bg-gradient-to-b from-transparent to-black'>
            
         </div>
-        <article className='absolute visivel'>
-            <p className='visivel__p1 '>Assista agora:</p>
-            <h2 className='visivel__h2'>{title}</h2>
-            <p className='visivel__p2'>
+        <article className='absolute bottom-0 mb-64 px-8'>
+            <p className='text-3xl '>Assista agora:</p>
+            <h2 className='text-6xl font-bold'>{title}</h2>
+            <p className='text-base'>
                 Nota 
                
             </p>
@@ -39,10 +39,10 @@ return (
                 {score}
             </span>
           
-            <button className='btn rounded bg-black py-2 opacity-0.5 hover:bg-white hover:text-black transition-all duration-300 ease-in-out' >
+            <button className='text-base py-2 px-8 mr-2 mt-8 rounded bg-black bg-opacity-50 transition-all duration-300 ease-in-out hover:bg-white hover:bg-opacity-75 hover:text-black' >
                 <FontAwesomeIcon className='icon' icon={faPlay}/> Assistir
             </button>
-            <button className='btn bg-black transition-all duration-300 ease-in-out'>
+            <button className='text-base py-2 px-8 mr-2 mt-8 rounded bg-black bg-opacity-50 transition-all duration-300 ease-in-out hover:bg-white hover:bg-opacity-75 hover:text-black'>
                 <FontAwesomeIcon className='icon' icon={faPlus}/> Minha lista
             </button>
        

@@ -11,13 +11,11 @@ import mockData from './data/mockData';
 
 const App = () => {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    <Carousel/>
-     
-
-    </>
+    <div className='m-auto antialised font-sans bg-black text-white'>
+      <Hero />
+      <Navbar />
+      <Carousel/>
+    </div>
   )
 
 };
