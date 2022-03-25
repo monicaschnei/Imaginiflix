@@ -32,7 +32,7 @@ const Carousel =({title='Carousel',data=mockData}: CarouselData)=> {
                 onClick={onClick}
             >
                 <FontAwesomeIcon icon={direction ? faChevronRight : faChevronLeft}
-                    size='3x'
+                    size='2x' color='white'
                 />
             </button>
         )
