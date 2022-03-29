@@ -1,12 +1,15 @@
 import React from 'react';
 import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome';
-import {faFacebook, faInstagram, faTwitter, faYoutube} from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faInstagram, faTwitter, faYoutube} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     const today=new Date();
     return(
+      <>
+      
     <footer>
-        <FontAwesomeIcon icon={faFacebook} />
+   
+        <FontAwesomeIcon icon={faFacebookSquare}/>
         <FontAwesomeIcon icon={faInstagram} />
         <FontAwesomeIcon icon={faTwitter} />
         <FontAwesomeIcon icon={faYoutube} />
@@ -27,6 +30,7 @@ const Footer = () => {
       </div>
       <p>© 1997 - {today.getFullYear()} Imagiflix, Inc.</p>
     </footer>
+      </>
     )
 };
 

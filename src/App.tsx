@@ -11,9 +11,7 @@ import Teste from './components/teste';
 import mockData from './data/mockData';
 
 
-export interface teste {
-  results: string;
-}
+
 
 const App = () => {
 
@@ -21,8 +19,8 @@ const App = () => {
   
   const { URL, APISTRING } = CONST;
 
-  const [movies, setMovies] = useState();
-  const [series, setSeries] = useState();
+  const [movies, setMovies] = useState<any>();
+  const [series, setSeries] = useState<any>();
 
   useEffect(() => {
     const fetchData = async () => {
